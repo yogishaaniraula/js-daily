@@ -1,6 +1,7 @@
 // let,const & var
 
-let fullName ="shanti devi";
-let price = 34;
+let Name ="shanti devi";
+let amount = 34;
 
 console.log(fullName);
+ 
