@@ -1,3 +1,2 @@
 # js-daily
-You can find daily javascript lessons.
-
+A code repo for JavaScript
