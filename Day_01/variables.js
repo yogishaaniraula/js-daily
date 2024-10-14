@@ -14,4 +14,3 @@ FullName ="Sandy";
 // only a letter, underscore(_),  $ should be 1st character.
 // no space between letters
 // reserved words cannot be variable names.
-
