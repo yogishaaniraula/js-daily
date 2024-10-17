@@ -40,8 +40,42 @@ while ( i <=6)
 
 let j = 1;
 do {
-    console.log("how are you?");
+    console.log("how are you?"); // executes 5 times
     j++;
 } while (j<=5);
+
+
+// 4. for -of loop 
+
+let str = "javascript"
+let size =0;
+
+
+for ( let item of str)
+{
+    console.log ("item =",item);
+    size ++;
+}
+
+ console.log( "string size =", size) // output : execute all the items in the str , string size = 10
+
+
+ // for in loop
+ 
+ let student = {
+    name: "yogisha niraula",
+    age: 21,
+    gpa: 3.45,
+    isPass: true,
+    
+ }
+
+ for ( let key in student)
+ {
+    console.log ( key ) // output : execute keys of the student i.e name , age, gpa, isPass
+    
+    console.log ( "key=", key, "value=", student[key]); // execute all the keys and their respective values
+ }
+
 
 
