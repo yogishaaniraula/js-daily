@@ -15,10 +15,23 @@ console.log ( str2.length); // output : 6
 
 
 
-// charcter position
+// character position
 console.log ( str[0]); // output : A
 
 console.log ( str2 [4]); // output: g
 
 
 // Template literals
+
+let sentence = `this is a special string`; 
+console.log ( sentence) ; // output : this is a special string
+
+let obj = {
+     item : "clock",
+     price : 45,
+}
+
+let output = `The cost of ${obj.item} is Rs. ${obj.price}`;
+console.log(output);  // output : The cost of clock is Rs. 45
+
+
