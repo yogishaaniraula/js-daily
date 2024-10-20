@@ -16,11 +16,25 @@ function myfunction(msg)
 myfunction("i love nepal") ; // inside function call : argument
 
 
-function sum ( x,y)
+// function of multiple numbers
+function mul(x,y)
+{
+    console.log(x*y);
+}
+
+mul (4,5) // output : 20
+
+
+// function returns value
+function sum(x,y)
 {
     s = x + y;
     return s;
 }
 
-let val =sum(2,4);
-console.log(val);// output : 6
+let result = sum (3,4);
+console.log(result);
+
+
+// arrow functions
+
