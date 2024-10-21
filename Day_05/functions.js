@@ -33,8 +33,30 @@ function sum(x,y)
 }
 
 let result = sum (3,4);
-console.log(result);
+console.log(result); // output: 7
 
 
 // arrow functions
+const arrowadd = ( g,h) => {
+    console.log(g+h)
+}
+
+arrowadd ( 2,3)// output : 5
+
+
+// multiplication 
+
+let arrowmul = (j,h) =>{
+    console.log(j*h)
+}
+
+arrowmul (3,9) // output : 27
+
+
+const printHello = () => {
+    console.log ("hello");
+}
+
+printHello() // putput: hello
+
 
